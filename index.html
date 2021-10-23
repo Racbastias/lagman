@@ -9,37 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
     <body>
-        <h1 class="text-success text-center py-3">El NinGato</h1>
-        <div class="row py-2" id="imagenes">
-            <div class="col-12 pt-1">
-                <img src="img/cat0.png" data-src="img/ninja0.png" alt="ningato0">
-            </div>
-            <div class="col-12">
-                <img src="img/cat1.png" data-src="img/ninja1.png" alt="ningato1">
-            </div>
-            <div class="col-12">
-                <img src="img/cat2.png" data-src="img/ninja2.png" alt="ningato2">
-            </div>
-            <div class="col-12">
-                <img src="img/cat3.png" data-src="img/ninja3.png" alt="ningato3">
-            </div>
-            <div class="col-12">
-                <img src="img/cat4.png" data-src="img/ninja4.png" alt="ningato4">
-            </div>
-        </div>
+        <h1 class="text-success text-center py-3">Saludos Mr. Lagman</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y0M3JXVbQMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
-    <script>
-        $(document).ready(function() {
-            $('img').on('click',function() {
-            console.log('click');
-            const ninjato = $(this).attr('data-src');
-            const gatinja = $(this).attr('src');
-            $(this).attr('src', ninjato);
-            $(this).attr('data-src',gatinja);
-            })
-        })
-    
-        
-
-    </script>
 </html>
